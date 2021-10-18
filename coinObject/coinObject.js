@@ -68,6 +68,7 @@ const coin = {
         coin.flip()
         const image = coin.toHTML()
         body.appendChild(image)
+        results.push(image)
     }
     return results
   }
